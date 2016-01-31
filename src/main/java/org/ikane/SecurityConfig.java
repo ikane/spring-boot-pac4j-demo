@@ -62,7 +62,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .permitAll()
          ;
 
-    	http.addFilterBefore(clientFilter(), UsernamePasswordAuthenticationFilter);
+    	http.addFilterBefore(clientFilter(), UsernamePasswordAuthenticationFilter.class);
     }
     
     @Override
@@ -74,7 +74,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     
     ClientAuthenticationFilter clientFilter() {
     	
-    	String suffixUrl="";
+    	String suffixUrl="/*";
     	
     	ClientAuthenticationFilter clientAuthenticationFilter = new ClientAuthenticationFilter(suffixUrl);
     	clientAuthenticationFilter.setClients(clients);
