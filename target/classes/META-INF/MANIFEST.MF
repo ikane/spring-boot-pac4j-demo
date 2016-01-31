@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-pac4j-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ubuntu
+Implementation-Vendor-Id: org.ikane
+Build-Jdk: 1.8.0_72
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
