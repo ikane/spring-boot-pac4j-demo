@@ -65,6 +65,10 @@ input[type=text] {
     margin: 10px auto;
 }
 
+.cas-login {
+    background-image: url('/cas.png');
+}
+
 .github-login {
     background-image: url('/GitHub-Mark-32px.png');
 }
